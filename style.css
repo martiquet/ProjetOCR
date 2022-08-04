@@ -376,7 +376,7 @@ main {
 
 .boxheberg, .boxheberg2 {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-around
     
 }
@@ -583,6 +583,7 @@ main {
     box-shadow: 0 0 6px 0 #0000002e;
     border-radius: 20px 20px 20px 20px;
     height: 444px;
+    
 }
 
 .imagecontainer3 {  
@@ -604,6 +605,7 @@ main {
 
 .imagecontainer3 img {
     height: 444px;
+    width: 100%;
    
 }
 
@@ -699,6 +701,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
 }
 /* ACTIVITE 5 */
 
@@ -707,6 +710,7 @@ main {
     box-shadow: 0 0 6px 0 #0000002e;
     border-radius: 20px 20px 20px 20px;
     height: 195px;
+    margin-bottom: 20px;
 }
 
 .imagecontainer6 {
@@ -811,8 +815,45 @@ footer li {
     margin: 10px 0 20px 0;
 }
 
+@media screen and (max-width: 1375px) {
+
+    .corps1 {
+        display: flex;
+        margin-top: 35px;
+        
+    }
+
+    .corps1-1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .boxheberg, .boxheberg2 {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .afficheplus {
+        margin: 0 0 20px 20px;
+    }
+
+    #ancre1 {
+        margin-top: 20px;
+    }
+    .activite1 {
+        margin-bottom: 20px;
+    }
+}
+    
+
 @media screen and (max-width: 998px) {
 
+    .corps12 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .corps1-1 {
         display: flex;
         flex-direction: row;
@@ -820,10 +861,14 @@ footer li {
 
     .corps1 {
         background-color: transparent;
+        width: 100%;
+        
+        
     }
 
     .corps2 {
         margin-bottom: 25px;
+        width: 100%;
     }
 
     .corps3-1 {
@@ -839,12 +884,14 @@ footer li {
         margin-bottom: 25px;
     }
 
-    .corps12 {
-        justify-content: space-around;
-    }
+   
 
     .corps3 h2 {
         margin-left: 8%;
+    }
+
+    footer {
+        height: auto;
     }
 
 }
