@@ -781,8 +781,9 @@ footer {
     display: flex;
     flex-direction: row;
     margin: 45px 5% 40px 5%;
-    justify-content: space-between;
     width: 60%;
+    
+    
    
 }
 
@@ -817,6 +818,7 @@ footer li {
 
 @media screen and (max-width: 1375px) {
 
+    
     .corps1 {
         display: flex;
         margin-top: 35px;
@@ -848,6 +850,16 @@ footer li {
     
 
 @media screen and (max-width: 998px) {
+
+
+    .Heberg1, .Activite1:hover {
+        border: none;
+
+    }
+
+    .Heberg1, .Activite1 {
+        border-bottom: #F2F2F2;
+    }
 
     .corps12 {
         display: flex;
@@ -892,7 +904,11 @@ footer li {
 
     footer {
         height: auto;
+        display: flex;
+        justify-content: center;
+        
     }
+
 
 }
     
