@@ -5,21 +5,14 @@ body {
     display: flex;
     flex-direction: column;
     margin: auto;
-    align-items: center;
-    
-   
-    
+    align-items: center; 
 }
-
-
-
 
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
 
 .elementflex{
     display: flex;
@@ -45,74 +38,40 @@ body {
    
 }
 
-
-
-
-
-
-
-    
-
-
  /*LOGO*/ 
-
- 
 
 .logo-nav figure img{
     width: 54%;
 }
 
-
-
-
  /* NAV HEADER */
-
-
-
-
 
 a {
     text-decoration: none;
-    color: initial;
-    
+    color: initial;    
 }
 
 header a:hover {
     color: #0065FC;
-    border-top: 4px solid #0065FC;
-    
+    border-top: 4px solid #0065FC;  
 }
-
-
 
 header nav {
     padding-bottom: 1%;
-    display: flex;
-    
+    display: flex;  
 }
-
 
 header {  
     display: flex;
     margin: 0 5%;
     max-width: 1440px;
-    width: 100%;
-    
-    
-
-    
-    
-    
-    
+    width: 100%; 
 }
+
 header a {
     font-weight: 600;
     padding: 51px 25px 0;
 }
-
-
-
-
 
  /* TITRE + P */
 
@@ -120,15 +79,12 @@ header a {
 .element3 h2 {
     font-size: 22px;
     font-weight: 800;
-    margin: auto;
-    
+    margin: auto; 
 }
 
 .element3 p { 
     margin-top: 8px;
-    margin-bottom: 10px;
-    
-      
+    margin-bottom: 10px;   
 }
 
 .element3 {
@@ -184,9 +140,6 @@ header a {
     font-size: 16px;
     font-weight: 700;
     padding-left: 20px;
-    
-    
-
 }
 
 
@@ -281,8 +234,6 @@ ul {
     border-left: none;
     height: 50px;
     transition: all .5s;
-    
-  
 }
 
 .filtre-ul li:hover{
@@ -300,20 +251,15 @@ ul {
     font-size: 24px;
 }
 
-
-
 /* INFO */
 
 .info1 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    
     margin-top: 15px;
     margin-left: 10px;
-    margin-bottom: 20px;
-    
-    
+    margin-bottom: 20px; 
 }
 
 .info1 i {
@@ -325,22 +271,13 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    
 }
-
-
-    
 
 .info1 p {
     display: flex;
     align-items: center; 
     margin-left: 20px;
-    
-   
 }
-
-
 
 
 /* CORPS 1 ET 2 */
@@ -360,8 +297,6 @@ main {
     flex-wrap: wrap-reverse;
     justify-content: space-between;
     width: 100%;
-    
-
 }
 
 .corps1  {
@@ -372,16 +307,12 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
-      
-    
 }
 
 .boxheberg, .boxheberg2 {
     display: flex;
     flex-direction: row;
     justify-content: space-around
-    
 }
 
 .h2corps1 {
@@ -392,10 +323,6 @@ main {
 .corps1-1 {
     display: flex;
     flex-direction: column;
-   
-
-    
-
 }
 
 .corps1 h3 {
@@ -414,20 +341,13 @@ main {
     width: 100%;
     border-radius: 25px 25px 0 0;
     padding-bottom: 8px;
-    
- 
 }
 
 .imagecontainer {
     width: 246px;
     height: 119px;
     overflow: hidden;
-    padding: 4px;
-    
-    
-    
-    
-    
+    padding: 4px;  
 }
 
 .imagecontainer img {
@@ -444,8 +364,6 @@ main {
     box-shadow: 0 0 6px 0 #0000002e;
     margin: 0 10px 25px 10px;
     width: 246px;
-    
-    
 }
 
 .boximg1 {
@@ -595,9 +513,7 @@ main {
     overflow: hidden;
     display: flex;
     justify-content: center;
-    border-radius: 20px 20px 0 0;
-    
-    
+    border-radius: 20px 20px 0 0;  
 }
 
 .activite1 h3 {
@@ -610,7 +526,6 @@ main {
     height: 444px;
     width: 100%;
     object-fit: cover;
-   
 }
 
 
@@ -659,8 +574,6 @@ main {
     box-shadow: 0 0 6px 0 #0000002e;
     border-radius: 20px 20px 20px 20px;
     height: 165px;
-    
-
 }
 
 
@@ -690,8 +603,6 @@ main {
     box-shadow: 0 0 6px 0 #0000002e;
     border-radius: 20px 20px 20px 20px;
     height: 444px;
-  
-
 }
 
 .activite4 h3 {
@@ -734,7 +645,6 @@ main {
     margin: 20px 0 20px 15px;
 }
 
-
 /* ACTIVITE 6  */
 
 .activite6 {
@@ -742,7 +652,6 @@ main {
     box-shadow: 0 0 6px 0 #0000002e;
     border-radius: 20px 20px 20px 20px;
     height: 208px;
-
 }
 
 .imagecontainer7 {
@@ -772,32 +681,19 @@ footer {
     display: flex;
     flex-direction: row;
     width: 100%;
-    justify-content: center;
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    justify-content: center;   
 }
+
 .footerlist {
     display: flex;
     flex-direction: row;
     margin: 45px 0 40px 0;
     max-width: 1440px;
     width: 100%;
-    
-    
-   
 }
 
 .list1 {
     margin-right: 18%;
-    
-    
 }
 
 .list2 {
@@ -806,7 +702,6 @@ footer {
 footer ol {
     margin: 15px 0 0 0;
 }
-
 
 ol {
     list-style: none;
@@ -843,11 +738,10 @@ footer li {
         flex-direction: column;
         justify-content: space-around;
     }
+
     .boxheberg, .boxheberg2 {
         display: flex;
-        flex-wrap: wrap;
-        
-        
+        flex-wrap: wrap;    
     }
 
     .corps2 {
@@ -855,13 +749,8 @@ footer li {
     }
     .corps2-1 {
         display: flex;
-        flex-wrap: wrap;
-        
-        
+        flex-wrap: wrap;  
     }
-    
-    
-   
     
     .boximg2 {
         width: 346px;
@@ -914,8 +803,6 @@ footer li {
     .corps1 {
         background-color: transparent;
         width: 100%;
-        
-        
     }
 
     .corps2 {
@@ -926,7 +813,6 @@ footer li {
     .corps2-1 {
         display: flex;
         flex-direction: column;
-        
     }
 
     .corps3-1 {
@@ -935,14 +821,11 @@ footer li {
 
     .activite1 {
         margin-bottom: 25px;
-    
     }
     
     .colact1 {
         margin-bottom: 25px;
     }
-
-   
 
     .corps3 h2 {
         margin-left: 8%;
@@ -951,36 +834,28 @@ footer li {
     footer {
         height: auto;
         display: flex;
-        justify-content: center;
-        
+        justify-content: center; 
     }
 
     .element3 li {
         margin-bottom: 15px;
     }
-
 }
     
-
 @media screen and (max-width: 768px) {
 
-    
     body {
         display: flex;
         flex-direction: column;
-        margin: 0;
-        
+        margin: 0; 
     }
 
-    
     .element3 {
         padding: 0 4%;
         display: flex;
         flex-direction: column;
-        
         justify-content: center;
-        align-items: flex-start
-            
+        align-items: flex-start   
     }
 
     
@@ -1004,10 +879,7 @@ footer li {
         padding-bottom: 10px;
     }
     .Heberg1 a, .Activite1 a {
-        
-      
-        width: 100%;
-        
+        width: 100%; 
     }
 
     header a:active {
@@ -1025,10 +897,7 @@ footer li {
     
     .recherche1 {
         display: inline-flex;
-        margin-top: 20px;
-        
-        
-        
+        margin-top: 20px; 
     }
 
     .logo-nav figure{
@@ -1036,7 +905,6 @@ footer li {
         align-items: center;
         justify-content: center;
         margin-bottom: 25px;
-      
     }
 
     .logo-nav {
@@ -1046,8 +914,6 @@ footer li {
     .element3-1 {
         display: flex;
         flex-wrap: wrap;
-        
-    
     }
 
     .Heberg1, .Activite1 {
@@ -1061,7 +927,6 @@ footer li {
     .element3-1 ul {
         display: flex;
         flex-wrap: wrap;
-    
     }
      .elementflex {
         width: 100%;
@@ -1106,10 +971,9 @@ footer li {
     }
     
     .corps12 {
-       
         display: flex;
-
     }
+
     .corps2 {
         width: 100%;
         border-radius: 0; 
@@ -1118,7 +982,6 @@ footer li {
         flex-direction: column; 
         padding-left: 4%;
         padding-right: 4%;
-        
     }
 
     .boxheberg, .boxheberg2 {
@@ -1126,6 +989,7 @@ footer li {
         flex-direction: column;
         align-items: center;
     }
+
     .corps1 {
         border-radius: 0;
         background-color: white;
@@ -1141,22 +1005,19 @@ footer li {
         width: auto;
         min-width: 346px;
     }
+
     .boximg {
         width: 100%;
         object-fit: cover;
-        
         margin: 0 0 25px 0;
     }
+
     .corps1-1 {
-        display: contents;
-        
-        
+        display: contents; 
     }
 
     .imagecontainer {
         width: 100%;
-    
-    
     }
 
     .boximg1 img {
@@ -1182,10 +1043,6 @@ footer li {
         display: flex;
         flex-wrap: wrap;
         padding: 0 5%;
-        
-       
-        
-        
     }
 
     .colact1, .colact2 {
@@ -1203,22 +1060,18 @@ footer li {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-bottom: 20px;
-        
+        margin-bottom: 20px; 
     }
 
     .imagecontainer3, .imagecontainer4, .imagecontainer5, .imagecontainer6, .imagecontainer7 {
         width: 100%;
         height: 134px;
-        
     }
 
     .imgactivite1, .imgactivite2, .imgactivite3, .imgactivite4, .imgactivite5, .imgactivite6 {
         width: 100%;
         max-height: 190px;
-        object-fit: cover;
-        
-                              
+        object-fit: cover;                         
     }
     
     
